@@ -1,4 +1,5 @@
-export class nombreCliente{//se crea clase con id y name
+export class nombreCliente{
+    //se crea clase con id y name
     id: number;
     name:string;
 }
