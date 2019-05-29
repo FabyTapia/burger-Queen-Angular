@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+        Welcome to {{ title }}
+    </h1>
+    <img width="300" alt="Angular Logo" src="assets/img/logobq.png">
+
+    <router-outlet></router-outlet>
+
+    <h2> {{ tomarNombreCliente.name | uppercase }} </h2>
+    <div><span>id:</span>{{ tomarNombreCliente.id }}</div>
+    <div>
+        <label> name:
+    <input [(ngModel)]="tomarNombreCliente.name" placeholder="name"/>
+</label>
+    </div>
