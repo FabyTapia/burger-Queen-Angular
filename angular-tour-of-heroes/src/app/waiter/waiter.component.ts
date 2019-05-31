@@ -8,6 +8,7 @@ import { MenuBreakfast } from '../orderBreakfast';
   styleUrls: ['./waiter.component.css']
 })
 export class WaiterComponent implements OnInit {
+  
   BREAKFAST:MenuBreakfast[] = BREAKFAST_IMPORT;//LLAMO A CLASE 
   selectedbreakfast: MenuBreakfast; 
   

@@ -1,17 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-    <h1>
-        Welcome to {{ title }}
-    </h1>
-    <img width="300" alt="Angular Logo" src="assets/img/logobq.png">
+<div class="col-sm-6 col-md-6 col-lg-6">
+    <div class="row">
+        <div style="text-align:center">
+            <h1>
+                Welcome to {{ title }}
+            </h1>
+            <img width="300" alt="Angular Logo" src="assets/img/logobq.png">
+        </div>
+    </div>
+</div>
 
-    <router-outlet></router-outlet>
+<router-outlet></router-outlet>
 
-    <h2> {{ tomarNombreCliente.name | uppercase }} </h2>
-    <div><span>id:</span>{{ tomarNombreCliente.id }}</div>
-    <div>
-        <label> name:
+<h2> {{ tomarNombreCliente.name | uppercase }} </h2>
+<div><span>id:</span>{{ tomarNombreCliente.id }}</div>
+<div>
+    <label> name:
     <input [(ngModel)]="tomarNombreCliente.name" placeholder="name"/>
 </label>
-    </div>
-    <app-waiter></app-waiter>
+</div>
+<app-waiter></app-waiter>
